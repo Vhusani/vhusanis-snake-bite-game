@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Snake bite</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="height: 490px">
+              <header class="wrap">
+                  <h1><a href="javascript:history.go(0)"><img src="Images/home.png" style="width: 25px; height: auto; margin-top:14px"></a></h1>
+                <p class="score">Points: <span id="score_value">0</span></p>
+                <a href="Fun.html" class="myButton">Read Here</a>
+            </header>
+    <br>
+            <canvas class="wrap" id="snake" width="320" height="320" tabindex="1" style="margin-left: 460px"></canvas>
+            <!-- Game Over Screen -->
+            <div id="gameover">
+                <h2>Game Over</h2>
+                <p>press <span style="color: Green; font-size: 23px">space</span> to retry</p>
+                <br>
+                <a id="newgame_gameover">new game</a><br>
+                <a id="setting_gameover">settings</a>
+                <img src="Images/Clouds.gif" style="margin-left: 15px; width: 210px; margin-top:0px; height: auto">
+            </div>
+            <!-- Setting screen -->
+            <div id="setting">
+                <h2>Settings</h2>
+                <a id="newgame_setting">new game</a>
+                <br>
+                <p>Choose Level
+                    <br>
+                    <input id="speed2" type="radio" name="speed" value="70"/>
+                    <label for="speed2">Easy</label><br>
+                    <input id="speed3" type="radio" name="speed" value="35"/>
+                    <label for="speed3"> Hard</label>
+                </p>
+            </div>
+            <!-- Main Menu Screen -->
+            <div id="menu">
+                <h2>Menu</h2>
+                <a id="newgame_menu">new game</a>
+                <br>
+                <a id="setting_menu">settings</a>
+                <br>
+                <a href="https://vhusani.github.io/Vhusani-ePortfolio/" id="setting_menu" target="blank" style="color:#37fba1">vhusani's porfolio</a>
+                <img src="Images/Clouds.gif" style="margin-left: 15px; width: 210px; margin-top:0px; height: auto">             
+            </div>
+    <script src="js/index.js"></script>
+<script type="text/javascript">
+    </script>
+
+</body>
+</html>
