@@ -13,8 +13,8 @@
                 height: inherit;
             }
             .wrap{
-                margin-left: 36%;
-                margin-right: auto;
+            
+               margin: 0px auto !important;
                 width: 430px;
                 height: auto;
             }
