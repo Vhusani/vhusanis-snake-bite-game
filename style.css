@@ -55,7 +55,10 @@
             
             
             /* All screens style */
-            #gameover a, #setting a, #menu a{
+            #gameover a, #setting a, 
+
+
+a{
                 display: block;
                     font-size: 25px;
             }
@@ -72,16 +75,16 @@
             
             /* Menu Screen Style */
             #menu{
-                display: block;
-                width: 340px;
-                padding-top: 0px;
-                padding-left: 36%;
-                text-decoration: none;
-                font-size: 40px;
-                float: left;
-                margin-right: auto;
-                text-align: center;
-                color: #FFF;
+    display: block;
+    width: 340px;
+    padding-top: 0px;
+    text-decoration: none;
+    font-size: 40px;
+    margin: 0px auto !important;
+    overflow-x: hidden !important;
+    margin-right: auto;
+    text-align: center;
+    color: #FFF;
             }
             
             h2{
