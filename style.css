@@ -42,11 +42,12 @@
                 color: #FFFFFF;
             }
             .score{
-                display: inline-block;
-                width: 240px;
-                font-size: 20px;
-                color: #FFFFFF;
-                text-align: right;
+    display: inline-block;
+    font-size: 20px;
+		        margin-top: 14px;
+    float: right;
+    color: #FFFFFF;
+    text-align: right;
             }
             .score_value{
                 font-size: inherit;
