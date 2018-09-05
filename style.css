@@ -114,15 +114,16 @@ a{
             /* Game Over Screen Style */
             
             #gameover{
-                display: none;
-                width: 340px;
-                float: left;
-                padding-top: 0px;
-                margin-left: 508px;
-                margin-right: auto;
-                text-align: center;
-                font-size: 30px;
-                color: #FFF;
+    display: block;
+    width: 340px;
+    padding-top: 0px;
+    text-decoration: none;
+    font-size: 40px;
+    margin: 0px auto !important;
+    overflow-x: hidden !important;
+    margin-right: auto;
+    text-align: center;
+    color: #FFF
             }
             
             #gameover p{
